@@ -2,6 +2,11 @@ module.exports = {
   prefix: '',
   important: false,
   separator: ':',
+  content: [
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./src/input.css", // Ruta a tu archivo de entrada
+  ],
   theme: {
     screens: {
       sm: '640px',
